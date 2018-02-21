@@ -38,12 +38,12 @@ render() {
             <NavItem>
               <NavLink href="/">Home</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/aboutus">About Us</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/Porfolio">Portfolio</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink href="/Pricing">Pricing</NavLink>
             </NavItem>

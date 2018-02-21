@@ -45,8 +45,8 @@ class Pricing extends Component {
           <Card>
             <CardImg top width="25%" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/14720360_1138406442907061_1155723253742123873_n.jpg?oh=164a4622e402f0a3916cad10dc8e92b4&oe=5B07BA93" alt="Card image cap" />
             <CardBody>
-              <CardTitle>Test 1</CardTitle>
-              <CardText>Also sobre </CardText>
+              <CardTitle>Baustizos y 1ra Comunion</CardTitle>
+              <CardText>Permitenos captar los momentos importantes de la vida de tus hijos(as).</CardText>
               <Button className='pricing-one' id="1" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>
               <Collapse isOpen={this.state.collapse1}>
                 <Card>
@@ -60,9 +60,10 @@ class Pricing extends Component {
           <Card>
             <CardImg top width="25%" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/12741938_961197577294616_6336476592629202265_n.jpg?oh=0a95864c2c652417f6e8fc891f55a1fd&oe=5B1CF3DB" alt="Card image cap" />
             <CardBody>
-              <CardTitle>Test 2</CardTitle>
-              <CardText>Also sobre </CardText>
-              <Button className='pricing-one' id="2" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>
+              <CardTitle>Quinciañeras</CardTitle>
+              <CardText>La epoca mas hermosa de tu vida.
+                No dejes en manos inexpertas esos inolvidables momentos! </CardText>
+              <Button className='pricing-one' id="2" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Aprende Mas</Button>
               <Collapse isOpen={this.state.collapse2}>
                 <Card>
                   <CardBody>
@@ -75,8 +76,10 @@ class Pricing extends Component {
           <Card>
             <CardImg top width="25%" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/12728879_961197143961326_6440001187650532998_n.jpg?oh=f43dad1cd1726daf9d5e322dbbd91caf&oe=5B22CD96" alt="Card image cap" />
             <CardBody>
-              <CardTitle> 3</CardTitle>
-              <CardText>Also sobre </CardText>
+              <CardTitle> Bodas </CardTitle>
+              <CardText>En uno de los días mas importantes de tu vida. 
+                Permiteme ser parte de tu historia y grabar para siempre esos momentos inolvidables.
+                 </CardText>
               <Button className='pricing-one' id="3" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>
               <Collapse isOpen={this.state.collapse3}>
                 <Card>

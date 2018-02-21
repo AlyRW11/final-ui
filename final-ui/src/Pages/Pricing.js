@@ -77,7 +77,7 @@ class Pricing extends Component {
             <CardImg top width="25%" src="https://scontent-ort2-2.xx.fbcdn.net/v/t1.0-9/12728879_961197143961326_6440001187650532998_n.jpg?oh=f43dad1cd1726daf9d5e322dbbd91caf&oe=5B22CD96" alt="Card image cap" />
             <CardBody>
               <CardTitle> Bodas </CardTitle>
-              <CardText>En uno de los días mas importantes de tu vida. 
+              <CardText>En uno de los días mas importantes de tu vida.
                 Permiteme ser parte de tu historia y grabar para siempre esos momentos inolvidables.
                  </CardText>
               <Button className='pricing-one' id="3" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>

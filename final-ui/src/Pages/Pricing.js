@@ -5,6 +5,7 @@ import {
 } from 'reactstrap';
 
 
+
 class Pricing extends Component {
   state = {
     collapse1: false,

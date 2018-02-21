@@ -1,38 +1,23 @@
 import React, { Component } from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardGroup,
-  CardSubtitle, CardBody } from 'reactstrap';
- 
- const Example = (props) => {
-   return (
-     <CardGroup>
-       <Card>
-         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-         <CardBody>
-           <CardTitle>Card title</CardTitle>
-           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-           <Button>Button</Button>
-         </CardBody>
-       </Card>
-       <Card>
-         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-         <CardBody>
-           <CardTitle>Card title</CardTitle>
-           <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
-           <Button>Button</Button>
-         </CardBody>
-       </Card>
-       <Card>
-         <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-         <CardBody>
-           <CardTitle>Card title</CardTitle>
-           <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-           <Button>Button</Button>
-         </CardBody>
-       </Card>
-     </CardGroup>
-   )
- }
- 
- export default Example;
+import { UncontrolledCarousel } from 'reactstrap';
+import './Home.css'
 
- 
+const items = [
+  {
+    src: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/1533886_10200967305616596_1201302026_n.jpg?oh=b112e3de1d24ea9829d45add98f43911&oe=5B05F42D',
+    altText: 'Slide 1',
+  },
+  {
+    src: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/13119954_10205824666647586_1639762694205345900_o.jpg?oh=01c5a5fbe85710f9a4a63dbbda534fd1&oe=5B0D47F1',
+    altText: 'Slide 2',
+  },
+  {
+    src: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/10246612_10201469599053618_8625422942980795871_n.jpg?oh=b5c0c95377a51f5750d3170117d33fb6&oe=5B1082B9',
+    altText: 'Slide 3'
+  }
+];
+
+const Carousel = () => <UncontrolledCarousel items={items} />
+
+
+export default Carousel

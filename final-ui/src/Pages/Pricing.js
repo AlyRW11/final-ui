@@ -3,8 +3,7 @@ import {
   Collapse, Button, CardBody, Card, CardImg,
   CardTitle, CardText, CardDeck, CardSubtitle, CardGroup
 } from 'reactstrap';
-
-
+import Package from './Packages'
 
 class Pricing extends Component {
   state = {
@@ -39,6 +38,7 @@ class Pricing extends Component {
     }
   }
 
+
   render() {
     return (
       <div>
@@ -52,8 +52,20 @@ class Pricing extends Component {
               <Collapse isOpen={this.state.collapse1}>
                 <Card>
                   <CardBody>
-                    Pricing one.
-            </CardBody>
+                   <Package 
+                   amount="100"
+                   size1="1 Amplificación de 20 x 30    (Sin Marco)"
+                   size2="1 Amplificaciónes 16 x 20   (Sin marco)"
+                   size3="3 Amplificaciónes de 8 x 10"
+                   dvdsection="3 DVD con los mejores momentos del evento 
+                   (Iglesia, parque y fiesta)"
+                   time="con duración de 1hora 30 minutos"
+                   session="Seción Previa duración 1 hora"
+                   extraAmount="1 DVD con 150 fotografias Digitales"
+                   wallet="(Wallet) Calidad Digital"
+                   online="10 fotografias tamaño cartera"
+                  />
+                  </CardBody>
                 </Card>
               </Collapse>
             </CardBody>
@@ -68,7 +80,22 @@ class Pricing extends Component {
               <Collapse isOpen={this.state.collapse2}>
                 <Card>
                   <CardBody>
-                    Pricing two.
+                    <div>
+                    <h3>Fotografías</h3>
+<p amount="150"> fotografías impresas en papel tamaño 4 x 6 
+    entregadas en álbum fotográfico 1 Amplificación de 20 x 30 (Sin Marco) 
+    1 Amplificaciónes
+    16 x 20 (Sin marco) 3 Amplificaciónes de 8 x 10</p>
+
+<h3>DVD</h3>
+<p> 3 DVD con los mejores momentos del evento 
+    (Iglesia, parque y fiesta) con duración de 1hora 30 minutos</p>
+<h3>Seción Previa</h3>
+<p>Seción Previa duración 1 hora</p>
+<h2>Magia Digital Studio se compromete:</h2>
+<p>A darle servicio personalizado al cliente, 
+    y entregar en un periodo no mayor a 30 días.</p>
+                    </div>
             </CardBody>
                 </Card>
               </Collapse>

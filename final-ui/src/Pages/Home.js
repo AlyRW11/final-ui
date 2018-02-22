@@ -5,7 +5,7 @@ import './Home.css'
 const items = [
   {
     src: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/1533886_10200967305616596_1201302026_n.jpg?oh=b112e3de1d24ea9829d45add98f43911&oe=5B05F42D',
-    altText: 'Slide 1',
+    altText: 'SOLO EN LOS MEJORES EVENTOS',
     // caption: 'SOLO EN LOS MEJORES EVENTOS!'
   },
   {

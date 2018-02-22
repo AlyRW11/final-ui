@@ -53,17 +53,22 @@ class Pricing extends Component {
                 <Card>
                   <CardBody>
                    <Package 
-                   amount="100"
-                   size1="1 Amplificación de 20 x 30    (Sin Marco)"
-                   size2="1 Amplificaciónes 16 x 20   (Sin marco)"
-                   size3="3 Amplificaciónes de 8 x 10"
-                   dvdsection="3 DVD con los mejores momentos del evento 
-                   (Iglesia, parque y fiesta)"
-                   time="con duración de 1hora 30 minutos"
-                   session="Seción Previa duración 1 hora"
-                   extraAmount="1 DVD con 150 fotografias Digitales"
-                   wallet="(Wallet) Calidad Digital"
-                   online="10 fotografias tamaño cartera"
+                   pacakgeNumber="Uno"
+                   amount="150"
+                   size1="1 "
+                   sizeCount1="20 x 30"
+                   frame1="(Sin Marco)"
+                   size2="1 "
+                   sizeCount2="16 x 20"
+                   frame2="(Sin Marco)"
+                   size3="3 "
+                   sizeCount3="8 x 10"
+                   frame3="(Sin Marco)"
+                   dvdsection="3 "
+                   time="1 hora 30 minutos"
+                   session="1 hora"
+                   extraAmount="150"
+                   wallet="10"
                   />
                   </CardBody>
                 </Card>
@@ -80,22 +85,26 @@ class Pricing extends Component {
               <Collapse isOpen={this.state.collapse2}>
                 <Card>
                   <CardBody>
-                    <div>
-                    <h3>Fotografías</h3>
-<p amount="150"> fotografías impresas en papel tamaño 4 x 6 
-    entregadas en álbum fotográfico 1 Amplificación de 20 x 30 (Sin Marco) 
-    1 Amplificaciónes
-    16 x 20 (Sin marco) 3 Amplificaciónes de 8 x 10</p>
-
-<h3>DVD</h3>
-<p> 3 DVD con los mejores momentos del evento 
-    (Iglesia, parque y fiesta) con duración de 1hora 30 minutos</p>
-<h3>Seción Previa</h3>
-<p>Seción Previa duración 1 hora</p>
-<h2>Magia Digital Studio se compromete:</h2>
-<p>A darle servicio personalizado al cliente, 
-    y entregar en un periodo no mayor a 30 días.</p>
-                    </div>
+                  <Package 
+                  pacakgeNumber="Dos"
+                   amount="200"
+                   size1="1"
+                   sizeCount1="20 x 30"
+                   frame1="(Sin Marco)"
+                   size2="2"
+                   sizeCount2="16 x 20"
+                   frame2="(Sin Marco)"
+                   size3="5"
+                   sizeCount3="8 x 10"
+                   frame3="(Sin Marco)"
+                   dvdsection="3 "
+                   time="2 horas"
+                   movie="Película en línea"
+                   session="1 hora 30 minutos"
+                   extraAmount="200"
+                   wallet="10"
+                   online="Album digital en línea."
+                  />
             </CardBody>
                 </Card>
               </Collapse>
@@ -112,7 +121,26 @@ class Pricing extends Component {
               <Collapse isOpen={this.state.collapse3}>
                 <Card>
                   <CardBody>
-                    Pricing three.
+                  <Package 
+                  pacakgeNumber="Tres"
+                   amount="300"
+                   size1="1"
+                   sizeCount1="20 x 30"
+                   frame1="(Con Marco de Lujo)"
+                   size2="2"
+                   sizeCount2="16 x 20"
+                   frame2="(Sin Marco)"
+                   size3="10"
+                   sizeCount3="8 x 10"
+                   frame3="(Sin Marco)"
+                   dvdsection="3 "
+                   time="2 horas 30 minutos"
+                   session="1 hora 30 minutos"
+                   makeup="Maquillaje y Peinado incluido"
+                   extraAmount="300"
+                   wallet="20"
+                   online="Album digital en línea."
+                  />
             </CardBody>
                 </Card>
               </Collapse>

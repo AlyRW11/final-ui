@@ -50,12 +50,12 @@ render() {
             <NavItem>
               <NavLink href="/ContactUs">Contact Us</NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink href="/TestTwo">Test 2</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="/Test">Test</NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <NavLink href={`${AppConfig.adminSiteRoot}`}>Admin</NavLink>
             </NavItem>

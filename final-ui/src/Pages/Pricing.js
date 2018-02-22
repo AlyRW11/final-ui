@@ -48,7 +48,7 @@ class Pricing extends Component {
             <CardBody>
               <CardTitle>Baustizos y 1ra Comunion</CardTitle>
               <CardText>Permitenos captar los momentos importantes de la vida de tus hijos(as).</CardText>
-              <Button className='pricing-one' id="1" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>
+              <Button className='pricing-one' id="1" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Aprende Mas</Button>
               <Collapse isOpen={this.state.collapse1}>
                 <Card>
                   <CardBody>
@@ -117,7 +117,7 @@ class Pricing extends Component {
               <CardText>En uno de los días mas importantes de tu vida.
                 Permiteme ser parte de tu historia y grabar para siempre esos momentos inolvidables.
                  </CardText>
-              <Button className='pricing-one' id="3" onClick={this.toggle} style={{ marginBottom: '1rem' }}>See More</Button>
+              <Button className='pricing-one' id="3" onClick={this.toggle} style={{ marginBottom: '1rem' }}>Aprende Mas</Button>
               <Collapse isOpen={this.state.collapse3}>
                 <Card>
                   <CardBody>
